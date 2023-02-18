@@ -7,6 +7,5 @@
  */
 int main(void)
 {
-	printf("Hello crazy code");
 	return (0);
 }
