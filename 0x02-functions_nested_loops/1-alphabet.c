@@ -7,15 +7,17 @@ int main(void)
 {
     void print_alphabet(void);
     print_alphabet();
-    printf("\n");
     return (0);
 }
 void print_alphabet(void)
 {
-    char c = 'a';
-    for (c = 'a'; c <= 'z'; ++c)
-    {
-        printf("%c", c);
-    }
-    return;
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+
+	putchar('\n');
+        return;
 }
